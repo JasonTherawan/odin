@@ -1,56 +1,56 @@
 const projects = [
     {
         title: "Recipes",
-        imagePath: "recipes/recipes.png",
+        imagePath: "/odin/recipes/recipes.png",
         shortDescription: "A fundamental website structure demonstrating semantic HTML, lists, and image embedding without CSS.",
         longDescription: "This project marks the completion of the HTML Foundations course. It consists of a main index page linking to several recipe pages, built entirely with semantic HTML elements. It demonstrates mastery of relative file paths, unordered/ordered lists, and basic page structure.",
         link: "recipes/index.html"
     },
     {
         title: "Landing Page",
-        imagePath: "landingpage/landingpage.png",
+        imagePath: "/odin/landingpage/landingpage.png",
         shortDescription: "A responsive web page layout built from scratch to demonstrate mastery of CSS Flexbox.",
         longDescription: "This project required recreating a provided design mockup pixel-perfectly. The core focus was on using CSS Flexbox for layout management, aligning items, and distributing space effectively across different sections like the hero, information cards, and call-to-action areas.",
         link: "landingpage/index.html"
     },
     {
         title: "Rock Paper Scissors",
-        imagePath: "rockpaperscissors/rockpaperscissors.png",
+        imagePath: "/odin/rockpaperscissors/rockpaperscissors.png",
         shortDescription: "An interactive browser game played against the computer, demonstrating JavaScript control flow and DOM manipulation.",
         longDescription: "Originally a console-only game, this project was revisited to add a graphical user interface. It features event listeners for player input, logic to track scores over a 5-round game, and dynamic DOM updates to display the winner, utilizing basic JavaScript fundamentals.",
         link: "rockpaperscissors/index.html"
     },
     {
         title: "Etch-a-Sketch",
-        imagePath: "etchasketch/etchasketch.png",
+        imagePath: "/odin/etchasketch/etchasketch.png",
         shortDescription: "A browser-based sketchpad that allows users to draw on a customizable grid by hovering their mouse.",
         longDescription: "This project focuses heavily on DOM manipulation. It dynamically generates a grid of square divs using JavaScript and applies 'mouseover' event listeners to change their background colors. It includes controls to resize the grid density and clear the canvas, challenging the management of nodes in the DOM tree.",
         link: "etchasketch/index.html"
     },
     {
         title: "Calculator",
-        imagePath: "calculator/calculator.png",
+        imagePath: "/odin/calculator/calculator.png",
         shortDescription: "A functional on-screen calculator capable of basic arithmetic operations with mouse and keyboard support.",
         longDescription: "This project involves complex logic to handle user inputs, chaining operations, and floating-point math. It demonstrates the use of arrays or variables to store operator states and updates the display in real-time, while handling edge cases like dividing by zero.",
         link: "calculator/index.html"
     },
     {
         title: "Sign Up Form",
-        imagePath: "signupform/signupform.png",
+        imagePath: "/odin/signupform/signupform.png",
         shortDescription: "A mock registration page emphasizing raw CSS styling and HTML form validation.",
         longDescription: "The focus here is on 'constraint validation' using HTML attributes and CSS pseudo-classes (:valid, :invalid) to provide visual feedback. It ensures passwords match and fields are correctly formatted before submission, without relying on heavy JavaScript validation.",
         link: "signupform/index.html"
     },
     {
         title: "Admin Dashboard",
-        imagePath: "admindashboard/admindashboard.png",
+        imagePath: "/odin/admindashboard/admindashboard.png",
         shortDescription: "A complex visual layout simulating a dashboard interface, designed specifically to practice CSS Grid.",
         longDescription: "While the Landing Page focused on Flexbox, this project utilizes CSS Grid for a 2-dimensional layout. It features a sidebar, header, and main content area with 'card' modules, demonstrating how Grid and Flexbox work together to create responsive, modern web layouts.",
         link: "admindashboard/index.html"
     },
     {
         title: "Library",
-        imagePath: "library/library.png",
+        imagePath: "/odin/library/library.png",
         shortDescription: "A book-tracking application allowing users to add, remove, and toggle the read status of books.",
         longDescription: "This project introduces Object-Oriented Programming concepts. It uses Object Constructors to define book instances and stores them in an array. The app manually renders the DOM based on the array's state, requiring careful management of data binding and index tracking.",
         link: "library/index.html"
