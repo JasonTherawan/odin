@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Library</h1>
+        <button id="add">+</button>
+    </header>
+    <div id="cards"></div>
+    <div id="overlay" class="hidden"></div>
+    <div id="popup" class="hidden">
+        <form id="addForm">
+            <h2>Add New Book</h2>
+            <button id="close" type="button">✕</button>
+            <label>
+                Title <br>
+                <input name="title" type="text" required>
+            </label>
+            <label>
+                Author <br>
+                <input name="author" type="text" required>
+            </label>
+            <label>
+                Pages <br>
+                <input name="pages" type="text" required>
+            </label>
+            <button id="submit" type="submit">Add</button>
+        </form>
+    </div>
+    <footer>Copyright &copy; TOP 2026</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

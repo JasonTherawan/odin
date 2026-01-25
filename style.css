@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+}
+
+header > * {
+    width: 12rem;
+    display: flex;
+    justify-content: center;
+}
+
+a, ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    gap: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    padding-top: 1.5rem;
+    background-color: aliceblue;
+}
+
+#cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-color: white;
+    box-shadow: 4px 4px 6px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.action {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+}
+
+.actionButton {
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionButton:hover {
+    background-color: rgba(211, 211, 211, 0.7);
+}
+
+.hidden {
+    display: none;
+}
+
+#overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    max-width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    background-color: beige;
+}
+
+#popup img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    display: block;
+    margin: 0 auto;
+}

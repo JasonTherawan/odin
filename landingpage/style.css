@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+header, .hero-section, footer {
+    background-color: #1F2937;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 220px;
+    padding-top: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-section {
+    padding: 100px 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero {
+    width: 460px;
+    height: 300px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.hero-section p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-section img {
+    width: 600px; 
+    height: 300px;
+}
+
+.info-section {
+    padding: 60px 220px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.illustrations div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+.illustrations img {
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 300px;
+}
+
+.quote-section p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-section h3 {
+    font-size: 24px;
+    text-align: right;
+    padding: 20px 40px;
+}
+
+.cta {
+    background-color: #3882F6;
+    padding: 50px 110px;
+    margin: 100px 220px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #F9FAF8;
+}
+
+.cta button {
+    border: 3px solid #F9FAF8;
+}
+
+footer {
+    padding: 30px;
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: center;
+}
