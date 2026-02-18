@@ -7,9 +7,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="register">
+        <form id="registerForm">
+            <select id="mode" onchange="updateForm()" autocomplete="off">
+                <option value="choose">Choose Mode</option>
+                <option value="computer">Vs Computer</option>
+                <option value="player">Vs Player</option>
+            </select>
+            <div id="inputs"></div>
+            <button type="submit">Start Game</button>
+        </form>
+    </div>
     <h1>Tic Tac Toe</h1>
     <hr>
-    <div class="board"></div>
+    <main class="hidden">
+        <div id="playerOne">
+            <h2 id="player1-name">Player 1: </h2>
+            <h3 id="player1-score">Score: 0</h3>
+        </div>
+        <div class="middle">
+            <div class="board"></div>
+            <div class="actions">
+                <button id="restartBtn">Restart Round</button>
+                <button id="resetScoreBtn">Reset Score</button>
+                <button onclick="location.reload()">Exit</button>
+            </div>
+        </div>
+        <div id="playerTwo">
+            <h2 id="player2-name">Player 2: </h2>
+            <h3 id="player2-score">Score: 0</h3>
+        </div>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>

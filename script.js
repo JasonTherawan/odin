@@ -55,6 +55,13 @@ const projects = [
         longDescription: "This project introduces Object-Oriented Programming concepts. It uses Object Constructors to define book instances and stores them in an array. The app manually renders the DOM based on the array's state, requiring careful management of data binding and index tracking.",
         link: "library/index.html"
     },
+    {
+        title: "Tic Tac Toe",
+        imagePath: "/odin/tictactoe/tictactoe.png",
+        shortDescription: "A modular implementation of the classic game featuring modes with asynchronous moves and dynamic SVG rendering.",
+        longDescription: "This project focuses on architectural decisions in JavaScript. It utilizes Constructor Functions and Prototypal Inheritance to efficiently manage memory and game state. Key features include an asynchronous computer opponent (using Promises to simulate 'thinking' time), a robust win-detection algorithm, and a strict separation between the gameboard logic and DOM manipulation.",
+        link: "tictactoe/index.html"
+    },
 ];
 
 const cardsContainer = document.getElementById("cards");
