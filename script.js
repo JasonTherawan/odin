@@ -62,6 +62,13 @@ const projects = [
         longDescription: "This project focuses on architectural decisions in JavaScript. It utilizes Constructor Functions and Prototypal Inheritance to efficiently manage memory and game state. Key features include an asynchronous computer opponent (using Promises to simulate 'thinking' time), a robust win-detection algorithm, and a strict separation between the gameboard logic and DOM manipulation.",
         link: "tictactoe/index.html"
     },
+    {
+        title: "Restaurant Page",
+        imagePath: "/odin/restaurantpage/restaurantpage.png",
+        shortDescription: "A dynamic restaurant website built with modular JavaScript and bundled using Webpack, demonstrating DOM manipulation and component-based page rendering.",
+        longDescription: "This project focuses on building a single-page restaurant website using modern JavaScript development practices. The interface is generated entirely through JavaScript modules rather than static HTML, allowing different sections to be dynamically rendered. The project uses ES6 modules to organize functionality and maintain separation between UI components. It is bundled with Webpack, enabling asset management, modular structure, and a streamlined build process.",
+        link: "restaurantpage/dist/index.html"
+    },
 ];
 
 const cardsContainer = document.getElementById("cards");
